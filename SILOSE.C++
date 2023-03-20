@@ -608,18 +608,6 @@ void pegawai_pengadaan2()
         break;
     default:
         cout << "Daftar penambahan barang dalam proses" << endl;
-
-       // for (i=0; i<list1; i++){
-         //   if (status2[i]=="Disetujui"){
-           //    counter[a]=i;
-             //   for (int k=0; k<global4; k++){
-               //     if (barang[i]==pengadaan2[k]){
-                 //       tambahlokal[k]=tambah[i];
-               //     }
-            //    }
-          //      a++;
-       //     }
-    //    }
         for (i=0; i<global4; i++){
             for (j=0; j<list1; j++){
                 if (pengadaan2[i]==barang[j]){
